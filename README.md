@@ -7,7 +7,7 @@ This project is a simple repackage of the [Real-ESRGAN model](https://github.com
 - Python 3.12.2
 - pytorch
 - numpy
-- opencv
+- opencv-python
 
 ## Installation
 
@@ -35,9 +35,12 @@ venv/bin/python Upscale.py
 ```
 
 > [!NOTE]  
-> By default the program will upscale all images from the ```inputs```folder by a factor of ```4``` and the results will be placed in the ```results``` folder
+> **By default** the program will upscale all images from the ```inputs```folder by a factor of ```4``` and the results will be placed in the ```results``` folder
 
-You can also configure the command with this options :
+<br/>
+
+### Options
+You can configure the command with this options :
 
 ```console
   -i inputPath            input image path (jpg/png/webp) or directory
